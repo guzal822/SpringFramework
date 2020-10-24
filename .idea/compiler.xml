@@ -14,6 +14,7 @@
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-04-BeanLifeCycle-IntAndDestroyMethod" />
+        <module name="Spring-05-JavaAnnotations-Qualifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="Spring-04-BeanLifeCycle-IntAndDestroyMethod" target="1.8" />
       <module name="Spring-05-JavaAnnotations-Autowired" target="1.8" />
       <module name="Spring-05-JavaAnnotations-Components" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Qualifier" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

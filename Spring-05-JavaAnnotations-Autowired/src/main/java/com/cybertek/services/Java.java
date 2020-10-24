@@ -17,11 +17,11 @@ public class Java implements Course {
 
  */
 
+    /*
     public OfficeHours getOfficeHours() {
         return officeHours;
     }
 
-    /*
         @Autowired  // setter injection
         public void setOfficeHours(OfficeHours officeHours) {
             this.officeHours = officeHours;
