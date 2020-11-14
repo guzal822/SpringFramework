@@ -9,16 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-05-JavaAnnotations-Autowired" />
         <module name="Spring-05-JavaAnnotations-Value" />
-        <module name="Spring-01-SpringContainer" />
-        <module name="Spring-05-JavaAnnotations-Components" />
-        <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-06-JavaCode-Configuration" />
-        <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
         <module name="Spring-04-BeanLifeCycle-IntAndDestroyMethod" />
+        <module name="Spring-01-SpringContainer" />
+        <module name="Spring-05-JavaAnnotations-Components" />
+        <module name="Spring-03-BeanScope-Singleton-Prototype" />
+        <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
+        <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,11 +36,15 @@
       <module name="Spring-06-JavaCode-Configuration" target="1.8" />
       <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" target="1.8" />
       <module name="Spring-07-SpringBoot-Demo" target="11" />
+      <module name="Spring-08-SpringBoot-MVC-Controller" target="11" />
+      <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-07-SpringBoot-Demo" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" options="-parameters" />
     </option>
   </component>
 </project>
