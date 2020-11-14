@@ -26,6 +26,9 @@ public class StudentController {
         numbers.add(5);
         numbers.add(6);
         numbers.add(7);
+        numbers.add(50);
+        numbers.add(60);
+        numbers.add(70);
         model.addAttribute("numbers",numbers);
 
         Student student=new Student(1,"Mike","Smith");

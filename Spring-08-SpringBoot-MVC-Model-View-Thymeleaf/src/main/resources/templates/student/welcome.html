@@ -23,5 +23,11 @@
 <a th:href="@{/student/welcome(id=3)}">link1 to here</a><br>
 
 <a th:href="@{/student/welcome(id=${student.id})}">link2 to here</a><br>
+
+<ul>
+    <li th:each="number :${numbers}" th:text="${number}"></li>
+</ul>
+
+<div th:replace="fragments/footer ::footer"></div>
 </body>
 </html>
